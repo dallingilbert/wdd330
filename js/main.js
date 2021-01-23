@@ -13,6 +13,6 @@ arrayLinks.forEach(links =>
         a.textContent = arrayLinks[i].toUpperCase();
         ol.appendChild(li);
         li.appendChild(a);
-        a.href="../" + arrayLinks[i] + "html/index.html";
+        a.href="../" + arrayLinks[i] + "/html/index.html";
         i++;
     });
